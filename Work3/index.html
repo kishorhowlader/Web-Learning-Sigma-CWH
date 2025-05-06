@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Create</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="username">Username :</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your Username" required>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="Others" name="gender" value="Others" required>
+            <label for="Others">Others</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes" required>
+            <label for="subscribe">Subscribe To NewsLetter</label>
+        </div>
+        <div>
+            <label for="comment">Your Comment Please :</label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="30">Enter Your Comment Here...</textarea>
+        </div>
+        <div>
+            <select name="fruit" id="fruit" required>
+                <option value="apple">Apple</option>
+                <option value="mango">Mango</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+        <div>
+        <input type="submit" id="submit" name="submit">
+    </div>
+    </form>
+</body>
+
+</html>
