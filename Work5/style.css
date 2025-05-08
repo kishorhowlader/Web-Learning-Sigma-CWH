@@ -1,0 +1,17 @@
+/* Class With Style */
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* id with style */
+#special-box {
+    background-color: lightgreen;
+    border-color: green;
+    font-weight: bold;
+}
