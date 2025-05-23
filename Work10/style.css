@@ -1,0 +1,54 @@
+/* Element Selector */
+div {
+    background-color: rgb(74, 148, 144);
+}
+
+/* CLass Selector */
+.Class-Selector {
+    background-color: aqua;
+}
+
+/* ID Selector */
+#ID-Selector {
+    background-color: blueviolet;
+}
+
+/* Child Selector */
+div > p {
+    color: aquamarine;
+    background-color: cornflowerblue;
+}
+
+/* Decendant Selector */ 
+/* (For accurate output comment child selector html-css then comment out Decendant Selector of html-css) */
+/* div p {
+    color: antiquewhite;
+    background-color: black;
+} */
+
+/* Universal Selector */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Pseudo Selector */
+a:visited {
+    color: yellow;
+}
+
+a:link {
+    color: chartreuse;
+}
+
+a:active {
+    background-color: blueviolet;
+}
+
+a:hover {
+    background-color:darkslategray;
+}
+
+p:first-child {
+    background-color: darkgray;
+}
